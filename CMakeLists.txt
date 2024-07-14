@@ -118,31 +118,6 @@ if(WIN32)
 endif()
 
 qt5_add_translation(QM_FILES
-    data/translations/${PROJECT_NAME}_ar_SA.ts
-    data/translations/${PROJECT_NAME}_az_AZ.ts
-    data/translations/${PROJECT_NAME}_de_DE.ts
-    data/translations/${PROJECT_NAME}_el_GR.ts
-    data/translations/${PROJECT_NAME}_es_ES.ts
-    data/translations/${PROJECT_NAME}_eu_ES.ts
-    data/translations/${PROJECT_NAME}_fi_FI.ts
-    data/translations/${PROJECT_NAME}_fr_FR.ts
-    data/translations/${PROJECT_NAME}_hi_IN.ts
-    data/translations/${PROJECT_NAME}_hu_HU.ts
-    data/translations/${PROJECT_NAME}_id_ID.ts
-    data/translations/${PROJECT_NAME}_it_IT.ts
-    data/translations/${PROJECT_NAME}_ko_KR.ts
-    data/translations/${PROJECT_NAME}_ms_MY.ts
-    data/translations/${PROJECT_NAME}_nl_NL.ts
-    data/translations/${PROJECT_NAME}_pl_PL.ts
-    data/translations/${PROJECT_NAME}_pt_BR.ts
-    data/translations/${PROJECT_NAME}_pt_PT.ts
-    data/translations/${PROJECT_NAME}_ru_RU.ts
-    data/translations/${PROJECT_NAME}_sq_AL.ts
-    data/translations/${PROJECT_NAME}_tr_TR.ts
-    data/translations/${PROJECT_NAME}_ug_CN.ts
-    data/translations/${PROJECT_NAME}_uk_UA.ts
-    data/translations/${PROJECT_NAME}_zh_CN.ts
-    data/translations/${PROJECT_NAME}_zh_TW.ts
 )
 
 configure_file(src/cmake.h.in cmake.h)
